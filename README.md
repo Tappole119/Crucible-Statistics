@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -23,3 +24,6 @@ Things you may want to cover:
 
 * ...
 "# Crucible-Stats" 
+=======
+# Crucible-Statistics
+>>>>>>> 5de9d33679bd4bb25973a20e8787ca0824518935
