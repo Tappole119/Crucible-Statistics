@@ -162,12 +162,12 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  capybara (~> 2.13)
+  capybara (~> 2.14)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
-  puma (~> 3.7)
+  puma (~> 3.9.1)
   rails (~> 5.1.1)
-  sass-rails (~> 5.0)
+  sass-rails (~> 5.0.6)
   selenium-webdriver
   sqlite3
   turbolinks (~> 5)
