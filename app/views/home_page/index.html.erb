@@ -49,14 +49,16 @@
             }
 
             nav ul {
+                border-radius: 15px;
                 list-style-type: none;
                 margin: 0;
                 padding: 0px;
                 width: 200px;
-                background-color: #f1f1f1;
+                background-color: #000030;
             }
 
             nav ul a {
+                border-radius: 15px;
                 display: block;
                 color: #000;
                 padding: 40px 20px;
@@ -64,19 +66,24 @@
             }
 
             nav ul a:hover {
+                border-radius: 15px;
                 background-color: #555;
                 color: white;
                 opacity: 35%;
             }
 
             .active{
+                border-radius: 15px;
                 color: white;
                 background-color: #FFCC00;
             }
 
             li{
-                border-style:solid;
-                border-width:1px
+                border-radius: 15px;
+                background-color: #f1f1f1;
+                border-style: solid;
+                border-width:1px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
             }
 
@@ -118,7 +125,7 @@
         </style>
     </head>
     <body>
-
+        <!--Nav bar-->
         <nav>
             <ul>
                 <li><a class ="active" href="#">
@@ -143,16 +150,19 @@
 
             </ul>
         </nav>
+        <!--End Navbar-->
 
+        <!--Main columb-->
         <div class="header">
             <h1>Crucible Manager</h1>
         </div>
-
+        <!--Side Menu-->
         <div class="clearfix">
             <div class="column menu">
                 <ul>
 
                     <li>
+                        <!--Drop Down Table: Xbox-->
                         <table>
                             <tr><th>Search</th></tr>
                             <tr>
@@ -169,7 +179,7 @@
                                         </div>
                                     </div>
                                 </td>
-
+                                <!--Drop Down Table: PSN-->
                                 <td>
                                     <div class="dropdown">
                                         <img src="Url" alt="PSN" width="85" height="50">
@@ -186,12 +196,17 @@
                             </tr>
                         </table>
                     </li>
+                    <!--End Drop Down Tables-->
 
+                    <!--Info-->
                     <li><h2>Info</h2>
                         <p>All the Info</p></li>
+                        <!--End Info-->
                 </ul>
             </div>
+            <!--End Side Menu-->
 
+            <!--Main Content: Center-->
             <div class="clearfix">
                 <div class="column content">
 
@@ -285,11 +300,15 @@
 
                 </div>
             </div>
+            <!--End Main Content: Center-->
 
-            <div class="footer">
+            <!--Footer-->
+                        <div class="footer">
                 <p>R.I.P Steve Irwin</p>
             </div>
+            <!--End Footer-->
+
+        <!--End Main Columb-->
 
     </body>
 </html>
-
