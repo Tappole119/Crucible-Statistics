@@ -221,12 +221,17 @@
                                     <div class="dropdown">
                                         <button class="buttonX">XBL</button>
                                         <div class="dropdown-content">
-                                            <form>
-                                                Gamertag:<br>
-                                                <input type="text" name="username"><br><br>
-                                                <input type="submit" value="Submit">
-                                                <input type="reset">
-                                            </form>
+                                            <%= form_for :search do |f| %>
+                                            <p>
+                                            <%= f.label :gamertag %><br>
+                                            <%= f.text_field :username %>
+                                            </p>
+ 
+                                            <p>
+                                            <%= f.submit %>
+                                            </p>
+                                            <% end %>
+
                                         </div>
                                     </div>
                                 </td>
@@ -235,12 +240,16 @@
                                     <div class="dropdown">
                                         <button class="buttonP">PSN</button>
                                         <div class="dropdown-content">
-                                            <form>
-                                                PSN id:<br>
-                                                <input type="text" name="username"><br>
-                                                <input type="submit" value="Submit">
-                                                <input type="reset">
-                                            </form>
+                                            <%= form_for :search do |f| %>
+                                            <p>
+                                            <%= f.label :PSN_id %><br>
+                                            <%= f.text_field :username %>
+                                            </p>
+ 
+                                            <p>
+                                            <%= f.submit %>
+                                            </p>
+                                            <% end %>
                                         </div>
                                     </div>
                                 </td>
