@@ -224,11 +224,11 @@
                                             <%= form_for :search do |f| %>
                                             <p>
                                             <%= f.label :gamertag %><br>
-                                            <%= f.text_field :username %>
+                                            <%= f.text_field :DisplayName1 %>
                                             </p>
  
                                             <p>
-                                            <%= f.submit %>
+                                            <!--%= f.button_to "Search", @Search, remote: true %>-->
                                             </p>
                                             <% end %>
 
@@ -242,8 +242,8 @@
                                         <div class="dropdown-content">
                                             <%= form_for :search do |f| %>
                                             <p>
-                                            <%= f.label :PSN_id %><br>
-                                            <%= f.text_field :username %>
+                                            <%= f.label :PSNid %><br>
+                                            <%= f.text_field :DisplayName2 %>
                                             </p>
  
                                             <p>
