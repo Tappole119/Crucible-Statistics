@@ -221,10 +221,9 @@
                                     <div class="dropdown">
                                         <button class="buttonX">XBL</button>
                                         <div class="dropdown-content">
-                                            <%= form_for :search do |f| %>
+                                            <%= form_tag home_page_path, :method => 'get' do %>
                                             <p>
-                                            <%= f.label :gamertag %><br>
-                                            <%= f.text_field :gamertag %>
+                                            <%= text_field_tag :gamertag, params[:gamertag] %>                            <%= submit_tag "search", :name => nil %>
                                             </p>
  
                                             <p>
