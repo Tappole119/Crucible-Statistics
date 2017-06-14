@@ -1,7 +1,10 @@
 class HomePageController < ApplicationController
   def index
-  	@home_page = HomePage.search(params[:gamertag])
-  	@home_page = HomePage.search(params[:PSN_id])
+  	@gamertag = HomePage.search(params[:gamertag])
+  end
+
+  def parser
+
   end
 
   private

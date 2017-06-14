@@ -223,7 +223,9 @@
                                         <div class="dropdown-content">
                                             <%= form_tag home_page_path, :method => 'get' do %>
                                             <p>
-                                            <%= text_field_tag :gamertag, params[:gamertag] %>                            <%= submit_tag "search", :name => nil %>
+                                            <%= f.label :gamertag %><br>
+                                            <%= f.text_field :gamertag,value: params[:gamertag] %>
+                                            <%= f.submit %>
                                             </p>
  
                                             <p>
