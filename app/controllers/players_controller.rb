@@ -5,8 +5,13 @@ class PlayersController < ApplicationController
   # GET /players.json
   def index
     @players = Player.all
-    @players = Player.search(params[:search], params[:name])
-  end
+
+    if params[:Xsearch]
+     @players = Player.search(params[:Xsearch], '1')
+    elsif params[:Psearch]
+     @players = Player.search(params[:Psearch], '2')
+    end
+ end
 
   # GET /players/1
   # GET /players/1.json

@@ -4,9 +4,10 @@
 <div>
 <%= form_tag players_path, :method => "get" do %>
   <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search XBL", :name1 => '1' %>
-    <%= submit_tag "Search PSN", :name2 => '2' %>
+    <%= text_field_tag :Psearch, params[:Xsearch] %>
+    <%= submit_tag "PSearch", :DisplayName => nil %>
+    <%= text_field_tag :Xsearch, params[:Xsearch] %>
+    <%= submit_tag "XSearch", :DisplayName => nil %>
   </p>
 <% end %>
 </div>
