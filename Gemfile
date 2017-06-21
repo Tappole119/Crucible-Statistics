@@ -13,6 +13,8 @@ gem 'pg'
 gem 'sqlite3'
 
 gem 'json'
+
+gem 'jquery'
 # Use Puma as the app server
 gem 'puma', '~> 3.9.1'
 # Use SCSS for stylesheets

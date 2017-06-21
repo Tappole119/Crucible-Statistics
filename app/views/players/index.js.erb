@@ -1,0 +1,18 @@
+//JavaScript w/ JQuery
+
+var apiKey = "YOUR-API-KEY-HERE";
+
+$.ajax({
+ url: "https://www.bungie.net/platform/" + 
+
+ function endPoint(){
+
+
+
+ },
+ headers: {
+  "X-API-Key": apiKey
+ }
+}).done(function(json){
+ console.log(json.Response.data.inventoryItem.itemName); //Gjallarhorn
+});

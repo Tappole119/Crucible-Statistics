@@ -70,6 +70,7 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    jquery (0.0.1)
     json (1.8.3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
@@ -167,6 +168,7 @@ DEPENDENCIES
   capybara (~> 2.14)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
+  jquery
   json
   pg
   puma (~> 3.9.1)
