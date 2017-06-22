@@ -1,10 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Guardians</h1>
+
 <div>
 <%= form_tag players_path, :method => "get" do %>
   <p>
-    <%= text_field_tag :Psearch, params[:Xsearch] %>
+    <%= text_field_tag :Psearch, params[:Psearch] %>
     <%= submit_tag "PSearch", :DisplayName => nil %>
     <%= text_field_tag :Xsearch, params[:Xsearch] %>
     <%= submit_tag "XSearch", :DisplayName => nil %>

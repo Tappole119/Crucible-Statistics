@@ -175,6 +175,7 @@ DEPENDENCIES
   rails (~> 5.1.1)
   sass-rails (~> 5.0.6)
   selenium-webdriver
+  sprockets-rails
   sqlite3
   turbolinks (~> 5)
   tzinfo-data

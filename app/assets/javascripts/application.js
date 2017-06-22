@@ -12,3 +12,10 @@
 //
 //= require rails-ujs
 //= require turbolinks
+
+
+$(document).ready(function(){
+	$("#Xsearch").submit(function(){
+		$.get($(this).attr("action"))
+	})
+};)

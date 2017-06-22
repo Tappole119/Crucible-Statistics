@@ -10,11 +10,14 @@ end
 gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+
 gem 'sqlite3'
 
 gem 'json'
 
 gem 'jquery'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 # Use Puma as the app server
 gem 'puma', '~> 3.9.1'
 # Use SCSS for stylesheets
