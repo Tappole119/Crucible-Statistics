@@ -13,9 +13,17 @@
 //= require rails-ujs
 //= require turbolinks
 
+$(document).ready ->
+  preview = $("#preview-url")
+  $('#url_url').keyup ->
+    current_value = $.trim @value
+    if current_value is ''
+      preview.hide().attr 'src', ''
+    else
+      preview.show().attr 'src', current_value
 
-$(document).ready(function(){
-	$("#Xsearch").submit(function(){
-		$.get($(this).attr("action"))
-	})
-};)
+//$(document).ready(function(){
+//	$("#Xsearch").submit(function(){
+//		$.get($(this).attr("action"))
+//	})
+//};)
